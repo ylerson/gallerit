@@ -5,8 +5,8 @@ const HomePage = async () => {
   
     
     `;
-    // ${await PhotoList()}
 
+    // ${await PhotoList()}
     return view;
 };
 

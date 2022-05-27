@@ -7,6 +7,8 @@ const Header = () => {
         const searchScroll = document.getElementById('searchScroll');
         const boxSearchTitle = document.getElementById('boxSearchTitle');
 
+        console.log(window.pageYOffset);
+
         const stiky = boxSearchTitle.offsetTop;
 
         if (window.pageYOffset > stiky) {
@@ -32,7 +34,7 @@ const Header = () => {
         </div>
         <ul id="headerMenu" class="header_menu">
             <li class="items_header_menu"><a href="/">Home</a> </li>
-            <li class="items_header_menu"><a href="#/search">Search</a> </li>
+            <li class="items_header_menu"><a href="#/search">Collection</a> </li>
             <li class="items_header_menu"><a href="#/about">About</a> </li>
         </ul>
     </nav>

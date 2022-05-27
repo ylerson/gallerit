@@ -11,6 +11,8 @@ body{
     background-color: black;
     background-image: url('./src/Resource/bg.jpg');
     background-attachment: fixed;
+    transition: all 0.5s ease;
+
 }
 header{
     display: flex;
@@ -22,6 +24,10 @@ header{
     width: 100vw;
     left: 0;
     right: 0;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(180deg, rgba(19,19,19,1) 0%, rgba(13,13,14,0.45) 42%, rgba(0,0,0,0) 100%);
+
 
 }
 header nav{
@@ -152,7 +158,7 @@ header .logo img{
     display: flex;
     justify-content: center;
     width: 80%;
-    animation: zoomIn 1s ease-in;
+    animation: zoomIn 0.3s ease-in;
 }
 
 /* Animations */
